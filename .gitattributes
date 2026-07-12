@@ -1,0 +1,13 @@
+# Normalize text files to LF in the repo; check out native on each OS.
+* text=auto eol=lf
+
+# Source and docs are text.
+*.cpp   text
+*.hpp   text
+*.h     text
+*.md    text
+Makefile text
+
+# Binary fixtures — never apply line-ending or diff munging.
+*.bin   binary
+*.pdf   binary

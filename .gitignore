@@ -1,0 +1,23 @@
+# ---- Build artifacts ----
+coding_tool
+*.out
+*.exe
+*.o
+*.obj
+*.a
+*.so
+*.dll
+build/
+bin/
+
+# ---- Program temp files ----
+# Intermediate LZW stream written during the encode/decode pipeline
+*.tmp.lzw
+
+# ---- Editor / IDE / OS ----
+.claude/
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
