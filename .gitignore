@@ -21,3 +21,10 @@ bin/
 *.swp
 .DS_Store
 Thumbs.db
+
+# ---- Secrets / local env ----
+.env*
+!.env.example
+*.pem
+*.key
+kaggle.json
